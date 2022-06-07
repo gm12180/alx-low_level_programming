@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int x;
+char x;
 
 for (x = 0;  x >= 9;  x++)
 {
@@ -14,6 +14,10 @@ for (x = 0;  x >= 9;  x++)
 	if (x != 9)
 	{
 		putchar(',');
+	}
+	else
+	{
+		putchar('$');
 	}
 }
 return (0);
